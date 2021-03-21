@@ -6,7 +6,7 @@ const path = require('path');
 
 // import routes
 const indexRouter = require('./routes/index');
-const db = require('./model/db');
+const modelName = require('./model/schema');
 
 const app = express();
 
