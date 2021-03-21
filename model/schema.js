@@ -5,4 +5,6 @@ const schemaName = new mongoose.Schema({
     name: String
 });
 
-module.exports = schemaName;
+const modelName = mongoose.model('collectionName', schemaName);
+
+module.exports = modelName;
